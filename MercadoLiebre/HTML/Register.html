@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/MercadoLiebre/HTML/home.html">
+            <img src="Images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" width="320px" height="100px">
+        </a>
+    </header>
+    <hr>
+    <main>
+        <h2 style="font-size:medium; font-family:Arial, Helvetica, sans-serif;">Para crear tu cuenta te pediremos
+            algunos datos</h2>
+        <br>
+        <section style="text-align: center;">
+            <form action="http://127.0.0.1:5500/MercadoLiebre/HTML/home.html" method="get">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" name="nombre" id="nombre" required>
+                <br>
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="Ingrese su apellido" name="apellido" id="apellido" required>
+                <br>
+                <br>
+                <label for="usuario">Usuario</label>
+                <input type="text" placeholder="Cree su usuario" name="usuario" id="usuario" required>
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Ingrese su email" name="email" id="email" required>
+                <br>
+                <br>
+                <label for="fecha de nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="fecha de nacimiento" id="fecha de nacimiento" required>
+                <br>
+                <br>
+                <label for="domicilio">Domicilio</label>
+                <input type="address" placeholder="Ingrese su dirección" name="domicilio" id="domicilio" required>
+                <h3 style="font-family: sans-serif; color: rgb(84, 83, 84);">¿Querés comprar o vender?</h3>
+                <label for="comprar">Comprar</label>
+                <input type="radio" name="perfil" id="comprar" value="comprar" required>
+                <label for="vender">Vender</label>
+                <input type="radio" name="perfil" id="vender" value="vender">
+                <br>
+                <h3 style="font-family: sans-serif; color: rgb(84, 83, 84);">Categorías de Interés</h3>
+                <label for="electro">Electro</label>
+                <input type="checkbox" name="electro" id="electro">
+                <br>
+                <label for="moda">Moda</label>
+                <input type="checkbox" name="moda" id="moda">
+                <br>
+                <label for="hogar">Hogar</label>
+                <input type="checkbox" name="hogar" id="hogar">
+                <br>
+                <label for="juguetería">Juguetería</label>
+                <input type="checkbox" name="juguetería" id="juguetería">
+                <br>
+                <label for="vida sana">Vida Sana</label>
+                <input type="checkbox" name="vida sana" id="vida sana">
+                <br>
+                <br>
+                <label for="foto de perfil">Foto de perfil</label>
+                <input type="file" name="foto de perfil" id="foto de perfil" accept="image/*" required>
+                <br>
+                <br>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña" name="contraseña" id="contraseña" required>
+                <br>
+                <br>
+                <label for="confirmar contraseña">Confirmar contraseña</label>
+                <input type="password" placeholder="Confirmar contraseña" name="confirmar contraseña"
+                    id="confirmar contraseña" required>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <small class="nav-footer-copyright">Copyright © 1999-2024 MercadoLibre S.R.L.</small>
+        <br>
+        <small>Protegido por reCAPTCHA</small>
+    </footer>
+</body>
+
+</html>
