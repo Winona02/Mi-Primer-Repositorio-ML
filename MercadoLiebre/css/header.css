@@ -1,0 +1,50 @@
+header {
+    background-color: #EAC926;
+    padding: 5vw;
+    margin: 0;
+}
+
+#logo {
+    height: 15vw;
+    margin: 4vw;
+}
+
+input {
+    max-width: 320px;
+} 
+
+h1 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.icono-mano {
+    margin-right: 5px;
+}
+
+.icono2 {
+    margin-left: 5px;
+}
+
+.nav-menu-link {
+    text-align: left;
+}
+
+.nav-menu-burger {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-menu {
+    text-align: center;
+    background-color: #1259c3;
+    color: white;
+    font-size: 25px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+ul {
+    padding: 0;
+}

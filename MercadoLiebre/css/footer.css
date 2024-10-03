@@ -1,0 +1,25 @@
+footer {
+    background-color: white;
+    margin: 0;
+}
+
+.footer-icono {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 18%;
+}
+
+.footer-section {
+    text-align: center;
+    margin: 30px;
+}
+
+.footer-p {
+    font-size: 12px;
+}
+
+.nav-footer-copyright {
+    font-size: 10px;
+    margin-left: 20px;
+}

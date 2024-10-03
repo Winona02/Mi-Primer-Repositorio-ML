@@ -1,0 +1,49 @@
+h2 {
+    font-size: 16px;
+}
+
+form {
+    text-align: center;
+}
+
+.input-user, .submit, .reset {
+    border-color: white;
+    border-style: none;
+    border-radius: 1vw;
+    width: 90%;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.submit {
+    background-color: #1259c3;
+    color: white;
+}
+
+.reset {
+    background-color: #666;
+    color: white;
+}
+
+.div-left {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.div-perfil {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    margin-top: 10px;
+    width: 90%;
+}
