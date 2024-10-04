@@ -1,17 +1,21 @@
 header {
     background-color: #EAC926;
-    padding: 5vw;
+    padding: 2vw;
     margin: 0;
 }
 
 #logo {
-    height: 15vw;
+    height: 10vw;
     margin: 4vw;
 }
 
-input {
-    max-width: 320px;
-} 
+.input_search_bar {
+    width: 200px;
+}
+
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    margin-top: 10px;
+}
 
 h1 {
     font-size: 12px;
@@ -22,7 +26,7 @@ h1 {
     margin-right: 5px;
 }
 
-.icono2 {
+.nav_icons {
     margin-left: 5px;
 }
 
@@ -47,4 +51,29 @@ h1 {
 
 ul {
     padding: 0;
+}
+
+.nav_tablet_desktop {
+    display: none;
+}
+
+@media (min-width:768px){
+    .nav-menu-burger {
+        display: none;
+    }
+
+    .nav_tablet_desktop {
+        display: block;
+    }
+
+    li {
+        display: inline;
+        font-size: 18px;
+    }
+
+}
+
+
+@media (min-width:1024px){
+    
 }

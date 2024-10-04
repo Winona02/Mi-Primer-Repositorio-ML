@@ -16,7 +16,14 @@ h2 {
     color: white;
 }
 
-form {
+.form_user {
     text-align: center;
 }
 
+@media (min-width:768px){
+
+}
+
+@media (min-width:1024px){
+    
+}
