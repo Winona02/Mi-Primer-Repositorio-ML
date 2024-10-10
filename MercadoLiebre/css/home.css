@@ -6,16 +6,18 @@ body {
     margin: 0;
 }
 
-li, a {
+li,
+a {
     text-decoration: none;
-    color:black;
+    color: black;
     list-style: none;
 }
 
 .h2-home {
     font-size: 24px;
-    color:#666
+    color: #666;
 }
+
 main {
     margin: auto;
     width: 90%;
@@ -25,9 +27,15 @@ main {
     width: 100%;
 }
 
-.article-div{
+.section_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.article-div {
     border-top: solid 1px #ebebeb;
-    margin: 15px;
+    margin: 20px;
     text-align: start;
 }
 
@@ -41,28 +49,38 @@ main {
 
 .icon-camion {
     color: #39b54a;
-    margin-top: 20px;
-    margin-left: 10px;
-    display: block;
+    
 }
 
-.icon-circle {
-    color: #39b54a;
-    font-size: 40px;
-    margin-top: -28px;
-    display: block;
+.span_circle_camion {
+    position: relative;
+    border: solid #39b54a 1px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    float: right;
+    margin-top: -15px;
 }
 
+.div_precio_descuento {
+    display: flex;
+
+}
 .precio {
     font-size: 18px;
+    flex-grow: 0.3;
+    
 }
 
 .descuento {
     color: #39b54a;
     font-size: 16px;
+    flex-grow: 0.7;
 }
 
-h3, h4 {
+h3,
+h4 {
     color: #666;
     font-size: 16px;
 }
@@ -71,7 +89,7 @@ h3 {
     display: none;
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
     h3 {
         display: block;
     }

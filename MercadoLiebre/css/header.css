@@ -4,13 +4,20 @@ header {
     margin: 0;
 }
 
+.div_container_logo {
+    display: flex;
+}
+
+.link_logo {
+    max-width: 100%;
+}
 #logo {
-    height: 10vw;
-    margin: 4vw;
+    width: 800px;
+    max-width: 50%;
 }
 
 .input_search_bar {
-    width: 200px;
+    max-width: 50%;
 }
 
 input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
