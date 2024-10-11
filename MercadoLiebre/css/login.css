@@ -1,29 +1,24 @@
 h2 {
     font-size: 16px;
+    margin-left: 4vw;
 }
-
-.input-user, .submit {
-    border-color: white;
-    border-style: none;
-    border-radius: 1vw;
-    width: 90%;
-    margin-top: 15px;
-    padding: 10px;
-}
-
-.submit {
-    background-color: #1259c3;
-    color: white;
-}
-
-.form_user {
-    text-align: center;
-}
-
-@media (min-width:768px){
-
-}
-
-@media (min-width:1024px){
+.div_container_form{
     
+    .form_user {
+        text-align: center;
+    }
+
+    .input-user, .submit {
+        border-color: white;
+        border-style: none;
+        border-radius: 1vw;
+        width: 90%;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .submit {
+        background-color: #1259c3;
+        color: white;
+    }
 }
