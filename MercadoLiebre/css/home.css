@@ -96,18 +96,21 @@ body {
     }
 }
 
+
+
 /* TABLET */
 
 @media (min-width:768px) {
-    h3 {
-        display: block;
-    }
-
+    
     .section_container {
-
+        
         .productos {
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
             width: 40%;
+
+            h3 {
+                display: block;
+            }
         }
     }
 
@@ -124,11 +127,37 @@ body {
 
         .productos {
             width: 20%;
+            box-shadow: none;
+            margin-bottom: 20px;
+
+            h3{
+                visibility: collapse;
+            }
 
             .img {
                 width: 100%;
             }
+
+
         }
+
+        /* MOVIMIENTOS */
+
+
+        .productos:hover {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+            h3{
+                visibility: visible;
+            }
+            
+            .icon-camion {
+                transform: rotate(-90deg);
+    
+            }
+        }
+        
+
     }
 
 }

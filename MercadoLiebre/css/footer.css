@@ -24,3 +24,31 @@ footer {
     font-size: 10px;
     margin-left: 20px;
 }
+
+@media (min-width:1024px){
+
+    .footer_div{
+        display: flex;
+        justify-content:space-around;
+
+        .footer-section{
+            width: 20%;
+        }
+
+    }
+
+    /* MOVIMIENTOS */
+
+    .footer-section:hover{
+
+        border: 1px solid #03264C;
+
+        .footer-icono{
+
+            color:  #03264C;
+        }
+
+    }
+
+
+}
