@@ -7,7 +7,7 @@ footer {
 .footer-section {
     text-align: center;
     margin: 30px;
-    
+
     .footer-icono {
         color: #1259c3;
         font-size: 2em;
@@ -23,12 +23,4 @@ footer {
 .nav-footer-copyright {
     font-size: 10px;
     margin-left: 20px;
-}
-
-@media (min-width:768px){
-
-}
-
-@media (min-width:1024px){
-    
 }

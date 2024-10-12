@@ -61,7 +61,7 @@ body {
         .icon-camion {
             color: #39b54a;
             font-size: 16px;
-        
+
         }
     }
 
@@ -69,12 +69,13 @@ body {
 
     .div_precio_descuento {
         display: flex;
-    
+
         .precio {
             font-size: 18px;
             flex-grow: 0.3;
-        
+
         }
+
         .descuento {
             color: #39b54a;
             font-size: 16px;
@@ -83,7 +84,7 @@ body {
     }
 
     /* DESCRIPCIÓN ART: CAFETERA Y OTROS */
-    
+
     h3 {
         display: none;
     }
@@ -102,8 +103,8 @@ body {
         display: block;
     }
 
-    .section_container{
-        
+    .section_container {
+
         .productos {
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
             width: 40%;

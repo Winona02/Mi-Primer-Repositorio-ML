@@ -2,13 +2,15 @@ h2 {
     font-size: 16px;
     margin-left: 4vw;
 }
-.div_container_form{
-    
+
+.div_container_form {
+
     .form_user {
         text-align: center;
     }
 
-    .input-user, .submit {
+    .input-user,
+    .submit {
         border-color: white;
         border-style: none;
         border-radius: 1vw;

@@ -5,7 +5,9 @@ h2 {
 .form_user {
     text-align: center;
 
-    .input-user, .submit, .reset {
+    .input-user,
+    .submit,
+    .reset {
         border-color: white;
         border-style: none;
         border-radius: 1vw;
@@ -19,7 +21,7 @@ h2 {
         background-color: #1259c3;
         color: white;
     }
-    
+
     .reset {
         background-color: #666;
         color: white;
